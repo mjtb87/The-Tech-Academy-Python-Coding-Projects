@@ -6,7 +6,7 @@ from datetime import datetime
 
 
 def getTextExtension():
-    folder_path = 'python_extensions_search'
+    folder_path = os.getcwd()
     file_list = os.listdir(folder_path)
     extension_dict = {}
     for i in file_list:
