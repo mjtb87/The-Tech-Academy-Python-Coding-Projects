@@ -2,7 +2,7 @@
 
 from tkinter import *
 import tkinter as tk
-import time
+
 
 #Frame is the Tkinter frame class that our own class will inherit from
 class ParentWindow(Frame):
